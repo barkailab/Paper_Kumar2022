@@ -18,11 +18,29 @@ In Detail:
 2) MatFiles/GP.mat
    GP:   see above
 3) MatFiles/medianSumPromNewAll.mat
-
-4) MatFiles/otherMatFiles.mat
-   
+This file contains the median promoter signal values between repeats for all strains
+4) MatFiles/medianMotifNew.mat
+This file contains the median in vivo 7mer scores between repeats for all strains
+5) MatFiles/otherMatFiles.mat
+  CISBP7merDist- in vitro 7mer scores
+  CISBP7seqLogo- in vitro PWM after selecting the most informative 7nt
+  contOPNDPN- OPN-Score
+  descTF- this the similar to supplemetary table 2, containing information about each TF used
+  dirStdClean- gene expression plasticity
+  HahnFeatures- promoter properties described by Donczew et al
+  intCorrMotifNew: standard deviation between repeats on in vivo 7mer signals
+  intCorrSumPromNewAll: standard deviation between repeats on all promoter signals
+  intCorrSumPromNewWOSubtel : standard deviation between repeats on promoter signals except subtelomeric promoters
+  intGeneDist: inergenic distance upstram the promoter
+  nmerRed7- 7mer motif sequences 
+  promoterIDXVec- this array identifies promoter regions
+  promoterLengthsTS- promoter Lengths
+  PughFeatures- promoter properties described by Rossi et al
+  SC_genome - genome sequence
+  whichProm- array containing promoter numbers on promoter positions
+6) medianNucleosomeData- median nucleosome signal on genome
 Due to space constrains some data (nucleotide-resolution coverage of each strain) had to be omitted from the repository. But are available as processed files on our GEO archive (GSE209631).
 
 We hope you enjoy looking at our data and if some scripts do not run on your computer please do not hesitate to contact us and we will try to get it working.
 
-Felix Jonas (fxjonas@gmail.com) & Divya Kumar ()
+Felix Jonas (fxjonas@gmail.com) & Divya Kumar (kdivya5706@gmail.com)

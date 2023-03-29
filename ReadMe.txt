@@ -1,5 +1,5 @@
 Dear Reader,
-thansk for your interest in our research.
+thanks for your interest in our research.
 This repository contains the scripts and data necessary to generate most of the Figures used in the Paper: "Complementary strategies for directing transcription factor binding in-vivo through DNA-binding domains and intrinsically disordered regions" by Kumar et al. 2023.
 Scripts and data for Figure 1,2 and 4AandE can be found in the respective folders (matFiles for data). For Figure 3 and the rest of Figure 4 the scripts can be found in the two .m files and the data is combined in redData.mat.xx, which need to be combined to generate redData.mat.
 The scripts should only require a small knwoledge of Matlab syntax and were tested on Matlab 2021b. 
@@ -41,6 +41,7 @@ This file contains the median in vivo 7mer scores between repeats for all strain
 6) medianNucleosomeData- median nucleosome signal on genome
 Due to space constrains some data (nucleotide-resolution coverage of each strain) had to be omitted from the repository. But are available as processed files on our GEO archive (GSE209631).
 
-We hope you enjoy looking at our data and if some scripts do not run on your computer please do not hesitate to contact us and we will try to get it working.
+We hope you enjoy looking at our data and if some scripts do not run on your computer please do not hesitate to contact us and we will try help you getting started.
+For the most updated version of the codes, we refer to our GitHub repository: https://github.com/barkailab/Paper_Kumar2022.
 
 Felix Jonas (fxjonas@gmail.com) & Divya Kumar (kdivya5706@gmail.com)
